@@ -1,0 +1,16 @@
+Package: demopkg
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jonas", "Ibn-Salem", , "joans.ibn-salem@tron-mainz.de", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-9886-113X"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/ibn-salem/demopkg
+BugReports: https://github.com/ibn-salem/demopkg/issues
