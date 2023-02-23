@@ -2,7 +2,7 @@ Package: demopkg
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("Jonas", "Ibn-Salem", , "joans.ibn-salem@tron-mainz.de", role = c("aut", "cre"),
+    person("Jonas", "Ibn-Salem", , "jonas.ibn-salem@tron-mainz.de", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-9886-113X"))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
@@ -14,3 +14,5 @@ Suggests:
 Config/testthat/edition: 3
 URL: https://github.com/ibn-salem/demopkg
 BugReports: https://github.com/ibn-salem/demopkg/issues
+Imports: 
+    dplyr

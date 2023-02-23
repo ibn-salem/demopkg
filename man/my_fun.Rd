@@ -2,7 +2,7 @@
 % Please edit documentation in R/fun.R
 \name{my_fun}
 \alias{my_fun}
-\title{Scale input to values between 0 and 1}
+\title{Scales input to 0 to 1}
 \usage{
 my_fun(x)
 }
@@ -13,10 +13,10 @@ my_fun(x)
 numeric vector of scaled values
 }
 \description{
-Scale input to values between 0 and 1
+Scales input to 0 to 1
 }
 \examples{
 
-my_fun(c(1, 10, 4))
+my_fun(1:10)
 
 }
